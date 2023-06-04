@@ -138,3 +138,46 @@ section#servicos .caixa-branca {
 
     border-radius: 8px;
 }
+
+section#final {
+    background-image: url('./imagem04.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contato {
+    margin-right: 300px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.contato h3 {
+    font-size: 24px;
+}
+
+.contato .item-contato {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.contato .item-contato svg {
+    font-size: 48px;
+    color: rgba(44, 173, 199, 0.658);
+}
+
+.item-contato .info-contato {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-contato .info-contato strong {
+    font-size: 24px;
+    font-weight: 800;
+}
