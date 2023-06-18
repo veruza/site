@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 
-<link rel="stylesheet" href="listagem.css">
+<link rel="stylesheet" href="../css/listagem.css">
 
 <head>
+    <script src="https://kit.fontawesome.com/c0fc1ce285.js" crossorigin="anonymous" defer></script>
     <title>Tabela de Usuários</title>
     <style>
        
@@ -11,12 +12,20 @@
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./cadastro.html">Cadastrar</a></li>
-        </ul>
-    </nav>
+    <header>
+        <label for="menu-toggle" class="toggle-label">
+            <i class="fas fa-bars"></i>
+        </label>
+        <input type="checkbox" id="menu-toggle" class="toggle-input">
+
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./cadastro.html">Cadastrar</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <h2>Tabela de Usuários</h2>
     <table>
         <thead>
